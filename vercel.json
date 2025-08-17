@@ -15,13 +15,5 @@
       "src": "/(.*)",
       "dest": "/api/$1"
     }
-  ],
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs18.x"
-    },
-    "api/**/*.py": {
-      "runtime": "python3.9"
-    }
-  }
+  ]
 }
