@@ -27,8 +27,8 @@ export default async function handler(req, res) {
     }
 
     // Dosya yollarını oluştur (önce .js, sonra .py)
-    const jsDosyaYolu = path.join(process.cwd(), 'scripts', klasor, `${dosya}.js`);
-    const pyDosyaYolu = path.join(process.cwd(), 'scripts', klasor, `${dosya}.py`);
+    const jsDosyaYolu = path.join('scripts', klasor, `${dosya}.js`);
+    const pyDosyaYolu = path.join('scripts', klasor, `${dosya}.py`);
 
     if (fs.existsSync(jsDosyaYolu)) {
       // JavaScript dosyasını çalıştır
