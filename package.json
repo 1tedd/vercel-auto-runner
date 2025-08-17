@@ -1,0 +1,26 @@
+{
+  "name": "vercel-auto-runner",
+  "version": "1.0.0",
+  "description": "Vercel ile otomatik dosya çalıştırma sistemi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  },
+  "keywords": [
+    "vercel",
+    "serverless",
+    "auto-runner"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

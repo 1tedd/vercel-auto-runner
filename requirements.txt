@@ -1,0 +1,4 @@
+# Bu dosyaya projenizin ihtiyaç duyduğu Python paketlerini ekleyin.
+# Örnek:
+# requests
+# numpy
